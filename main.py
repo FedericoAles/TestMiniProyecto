@@ -13,6 +13,8 @@ vivorita = Snake()
 comida = Food()
 score = Scoreboard()
 
+API_KEY= "afd9afad7fa8df7afbae8fae78a8efae7f87a7e8fa"
+
 screen.listen()
 screen.onkey(vivorita.up, "Up")
 screen.onkey(vivorita.down, "Down")
